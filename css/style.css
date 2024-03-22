@@ -4,8 +4,8 @@
 */
 
 .mdl-layout__header-row {
+  align-items: center;
   justify-content: center;
-  padding: 0;
 }
 
 .mdl-layout__content {
@@ -14,28 +14,17 @@
   padding-top: 15pt;
 }
 
-.mdl-textfield__error {
-  color: lightgreen;
+body {
+  background-color: rgb(230, 157, 12);
 }
 
-.page-content {
+p {
   color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  padding-top: 5pt;
 }
 
-.page-content-answer {
-  color: rgb(0, 0, 0);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
-}
-
-.right-image {
-  height: auto;
-  width: 500px;
+img {
   float: right;
-}
-
-body {
-  background-color: rgb(240, 162, 28);
 }
