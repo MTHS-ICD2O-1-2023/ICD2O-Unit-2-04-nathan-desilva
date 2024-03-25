@@ -9,14 +9,19 @@
 /**
  * This function calculates area of a triangle.
  */
-function calculateAreaOfTriangle () {
+function calculateAreaOfTriangle() {
   // input
-  const baseOfTriangle = parseInt(document.getElementById('base-of-triangle').value)
-  const heightOfTriangle = parseInt(document.getElementById('height-of-triangle').value)
+  const baseOfTriangle = parseInt(
+    document.getElementById("base-of-triangle").value
+  )
+  const heightOfTriangle = parseInt(
+    document.getElementById("height-of-triangle").value
+  )
 
   // process
   const calculateAreaOfTriangle = baseOfTriangle * heightOfTriangle * 0.5
 
   // output
-  document.getElementById('area-of-triangle').innerHTML = 'Area is: ' + baseOfTriangle * heightOfTriangle * 0.5 +' cm²'
+  document.getElementById("area-of-triangle").innerHTML =
+    "Area is: " + baseOfTriangle * heightOfTriangle * 0.5 + " cm²"
 }
